@@ -17,9 +17,7 @@ choices.forEach((choice)=>{
 
 
 const playGame=(userChoice)=>{
-    console.log("userChoice=",userChoice); 
     const compChoice=genCompChoice();
-    console.log("Comp Choice=",compChoice); 
 
     if (userChoice===compChoice){
         drawGame();
